@@ -54,7 +54,7 @@ button{
     position: absolute;
     top: 40%;
     left: 15%;
-    color: white;
+
     font-weight: lighter;
     font-size: 175%;
     z-index: 0;
@@ -63,7 +63,6 @@ button{
     position: absolute;
     top: 45%;
     left: 15%;
-    color: white;
     font-size: 100%;
     padding-top: 1%;
 }
@@ -247,3 +246,21 @@ span{
     width: 100px;
     height: 100px;
 }
+
+
+@keyframes animation1 {
+    0% {
+      opacity: 0;
+    }
+    60% {
+      opacity: 1;
+      color: orange;
+    }
+    100% {
+      color: white;
+    }
+  }
+  
+  .animation {
+    animation: animation1 5s ease-in-out forwards;
+  }
